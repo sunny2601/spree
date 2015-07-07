@@ -526,7 +526,7 @@ en:
     category: Category
     charged: Charged
     check_for_spree_alerts: Check for Spree alerts
-    checkout: Checkout
+    checkout: Place Order
     choose_a_customer: Choose a customer
     choose_a_taxon_to_sort_products_for: "Choose a taxon to sort products for"
     choose_currency: Choose Currency
