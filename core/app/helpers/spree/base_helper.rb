@@ -145,6 +145,10 @@ module Spree
     end
 
     def display_price(product_or_variant)
+      if !spree_current_user.blank? && !spree_current_user.roles.blank? 
+        role_discount = spree_current_user.roles.first.discount_percentage.to_f
+        product_or_variant.price_in(current_currency).amount = product_or_variant.price_in(current_currency).amount - (product_or_variant.price_in(current_currency).amount*role_discount)/100
+      end
       product_or_variant.price_in(current_currency).display_price.to_html
     end
 
