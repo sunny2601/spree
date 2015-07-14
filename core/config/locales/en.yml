@@ -4,7 +4,7 @@ en:
       spree/address:
         address1: Address
         address2: Address (contd.)
-        city: City
+        city: City
         country: Country
         firstname: First Name
         lastname: Last Name
