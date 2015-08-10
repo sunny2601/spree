@@ -18,19 +18,19 @@
 
 
 
- /* #Base 960 Grid
-================================================== 
+/* #Base 960 Grid
+================================================== */
 
     .container                                  { position: relative; width: 960px; margin: 0 auto; padding: 0; }
     .container .column,
     .container .columns                         { float: left; display: inline; margin-left: 10px; margin-right: 10px; }
     .row                                        { margin-bottom: 20px; }
 
-     Nested Column Classes 
+    /* Nested Column Classes */
     .column.alpha, .columns.alpha               { margin-left: 0; }
     .column.omega, .columns.omega               { margin-right: 0; }
 
-     Base Grid 
+    /* Base Grid */
     .container .one.column,
     .container .one.columns                     { width: 40px;  }
     .container .two.columns                     { width: 100px; }
@@ -52,7 +52,7 @@
     .container .one-third.column                { width: 300px; }
     .container .two-thirds.column               { width: 620px; }
 
-     Offsets 
+    /* Offsets */
     .container .offset-by-one                   { padding-left: 60px;  }
     .container .offset-by-two                   { padding-left: 120px; }
     .container .offset-by-three                 { padding-left: 180px; }
